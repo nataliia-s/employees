@@ -1,0 +1,28 @@
+.sort-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #000;
+    background-color: #ffd6b3;
+    margin-right: 10px;
+    font-weight: 600;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.sort-arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    margin-bottom: 2px;
+}
+
+.sort-arrow--asc {
+    border-bottom: 5px solid #000;
+}
+
+.sort-arrow--desc {
+    border-top: 5px solid #000;
+}

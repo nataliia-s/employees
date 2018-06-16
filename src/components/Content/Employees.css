@@ -1,0 +1,10 @@
+.employee-block {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ffe5cc;
+    min-height: 200px;
+}
+
+.redux-lazy-scroll {
+    overflow: hidden !important;
+}

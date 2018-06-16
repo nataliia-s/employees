@@ -1,0 +1,30 @@
+{
+  "name": "testsdsolution",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.1.1",
+    "cross-fetch": "^2.2.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "redux": "^1.0.0-rc",
+    "redux-lazy-scroll": "^0.1.1",
+    "redux-thunk": "^2.3.0",
+    "whatwg-fetch": "^2.0.4"
+  },
+  "scripts": {
+    "server": "json-server --watch ./data/db.json --port 3001",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "redux-devtools-extension": "^2.13.2"
+  }
+}
